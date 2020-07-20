@@ -6,7 +6,9 @@ const routes = buildRoutes();
 let router = createRouter({
   history: createWebHistory(),
   routes: routes,
-})
+});
+
+updateTitlePage();
 
 function buildRoutes(): any[] {
   const vueRoutes: any[] = [];
@@ -24,6 +26,14 @@ function buildRoutes(): any[] {
   // });
 
   return vueRoutes;
+}
+
+function updateTitlePage() {
+  // check change state and set title for page
+
+  router.afterEach(route => {
+    document.title = route.meta?.title;
+  });
 }
 
 export default router;
