@@ -10,7 +10,8 @@
     "lodash-es": "^4.17.15",
     "tailwindcss": "^1.5.1",
     "vue": "^3.0.0-rc.4",
-    "vue-router": "^4.0.0-beta.3"
+    "vue-router": "^4.0.0-beta.3",
+    "vuex": "^4.0.0-beta.4"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.3",
