@@ -5,10 +5,8 @@ module.exports = {
   alias: {
     '/@/': path.resolve(__dirname, './src')
   },
-  rollupPluginVueOptions: {
-    transformAssetUrls: {
-      img: ['src', 'data-src'],
-      // SvgRender: 'src',
-    }
+  transformAssetUrls: {
+    img: ['src', 'data-src'],
+    SvgRender: 'src',
   }
 }
