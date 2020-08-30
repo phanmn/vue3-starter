@@ -8,5 +8,10 @@ module.exports = {
   transformAssetUrls: {
     img: ['src', 'data-src'],
     SvgRender: 'src',
-  }
+  },
+  cssPreprocessOptions: {
+    stylus: {
+      paths: ['node_modules', path.resolve('./src/styles')],
+    }
+  },
 }
