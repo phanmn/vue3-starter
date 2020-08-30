@@ -2,6 +2,9 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 // import defaultTheme from 'tailwindcss/defaultTheme';
 
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   purge: [
     './index.html',
     './src/**/*.vue',
