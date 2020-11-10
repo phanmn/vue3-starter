@@ -8,17 +8,17 @@
   "dependencies": {
     "axios": "^0.19.2",
     "lodash-es": "^4.17.15",
-    "tailwindcss": "^1.8.10",
-    "vue": "^3.0.0",
-    "vue-i18n": "^9.0.0-beta.4",
-    "vue-router": "^4.0.0-beta.13",
-    "vuex": "^4.0.0-beta.4"
+    "tailwindcss": "^1.9.6",
+    "vue": "^3.0.2",
+    "vue-i18n": "^9.0.0-beta.6",
+    "vue-router": "^4.0.0-rc.2",
+    "vuex": "^4.0.0-rc.1"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.3",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.0.2",
     "pug": "^3.0.0",
     "stylus": "^0.54.8",
-    "vite": "^1.0.0-rc.4"
+    "vite": "^1.0.0-rc.9"
   }
 }
