@@ -5,7 +5,7 @@ module.exports = {
   alias: {
     '/@/': path.resolve(__dirname, './src')
   },
-  transformAssetUrls: {
+  vueTransformAssetUrls: {
     img: ['src', 'data-src'],
     SvgRender: 'src',
   },
