@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/lodash-es": "^4.17.3",
     "@vue/compiler-sfc": "^3.0.3",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "stylus": "^0.54.8",
     "tslib": "^2.0.3",
     "vite": "^1.0.0-rc.13"
